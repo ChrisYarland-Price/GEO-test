@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<devices>
+		<device>
+			<name>hub_ethernet_cosy</name>
+			<value>0</value>
+			<notes>Cosy hub, Ethernet microcontroller</notes>
+		</device>
+		<device>
+			<name>ct</name>
+			<value>6</value>
+			<notes>Legacy Legato CT transmitter</notes>
+		</device>
+		<device>
+			<name>smartplug_old_1</name>
+			<value>8</value>
+			<notes>Legacy Legato smartplug 1</notes>
+		</device>
+		<device>
+			<name>smartplug_old_2</name>
+			<value>9</value>
+			<notes>Legacy Legato smartplug 2</notes>
+		</device>
+		<device>
+			<name>smartplug_old_3</name>
+			<value>10</value>
+			<notes>Legacy Legato smartplug 3</notes>
+		</device>
+		<device>
+			<name>smartplug_old_4</name>
+			<value>11</value>
+			<notes>Legacy Legato smartplug 4</notes>
+		</device>
+		<device>
+			<name>smartplug_old_5</name>
+			<value>12</value>
+			<notes>Legacy Legato smartplug 5</notes>
+		</device>
+		<device>
+			<name>smartplug_old_6</name>
+			<value>13</value>
+			<notes>Legacy Legato smartplug 6</notes>
+		</device>
+		<device>
+			<name>hub_rf_cosy</name>
+			<value>64</value>
+			<notes>Cosy hub, RF microcontroller</notes>
+		</device>
+		<device>
+			<name>CELLO</name>
+			<value>65</value>
+			<notes>Cosy display, R1</notes>
+		</device>
+		<device>
+			<name>heating_switch</name>
+			<value>66</value>
+			<notes>Cosy heating switch, R1</notes>
+		</device>
+		<device>
+			<name>smartplug</name>
+			<value>67</value>
+			<notes>Legacy Legato smartplug</notes>
+		</device>
+		<device>
+			<name>hub_ethernet_solo3</name>
+			<value>68</value>
+			<notes>Solo 3 hub, Ethernet microcontroller</notes>
+		</device>
+		<device>
+			<name>hub_rf_solo3</name>
+			<value>69</value>
+			<notes>Solo 3 hub, RF microcontroller</notes>
+		</device>
+		<device>
+			<name>bridge_ethernet</name>
+			<value>70</value>
+			<notes>The black bridge, upgraded from energynote 13.1 (v35 of the
+				code)
+			</notes>
+		</device>
+		<device>
+			<name>solo3_ihd</name>
+			<value>71</value>
+			<notes>Solo3 display</notes>
+		</device>
+		<device>
+			<name>asl_meter</name>
+			<value>72</value>
+			<notes>ASL meter for use with the Solo 3 system</notes>
+		</device>
+		<device>
+			<name>ctplus</name>
+			<value>73</value>
+			<notes>Enhanced CT clip (not currently used?)</notes>
+		</device>
+		<device>
+			<name>hub_ethernet_cosy_generic</name>
+			<value>74</value>
+			<notes>Generic hub to connect to Cosy servers and perform fast
+				firmware download. Used to deploy hub firmware at the point of
+				installation.
+			</notes>
+		</device>
+		<device>
+			<name>hub_ethernet_sniffer</name>
+			<value>75</value>
+			<notes>Sniffer</notes>
+		</device>
+		<device>
+			<name>cello2</name>
+			<value>76</value>
+			<notes>Cosy R2 display</notes>
+		</device>
+		<device>
+			<name>heating_switch2</name>
+			<value>77</value>
+			<notes>Cosy R2 dual relay heating switch</notes>
+		</device>
+		<device>
+			<name>trio_ii_main</name>
+			<value>80</value>
+			<notes>Trio II main processor and screen</notes>
+		</device>
+		<device>
+			<name>wifi_module</name>
+			<value>81</value>
+			<notes>Wifi communications module</notes>
+		</device>
+		<device>
+			<name>hub_ethernet_connect</name>
+			<value>82</value>
+			<notes>Connect hub ethernet MCU</notes>
+		</device>
+		<device>
+			<name>hub_rf_connect</name>
+			<value>83</value>
+			<notes>Connect hub RF MCU</notes>
+		</device>
+		<device>
+			<name>stairlift_sensor</name>
+			<value>84</value>
+			<notes>Stairlift sensor</notes>
+		</device>
+		<device>
+			<name>temperature_sensor</name>
+			<value>85</value>
+			<notes>Temperature sensor</notes>
+		</device>
+		<device>
+			<name>hub_ethernet_sensor2cloud</name>
+			<value>86</value>
+			<notes>Sensor 2 Cloud hub Ethernet MCU</notes>
+		</device>
+		<device>
+			<name>hub_rf_sensor2cloud</name>
+			<value>87</value>
+			<notes>Sensor 2 Cloud hub RF MCU</notes>
+		</device>
+		<device>
+			<name>invalid</name>
+			<value>255</value>
+			<notes>Don't assign this to a device!</notes>
+		</device>
+	</devices>
+</document>
+
