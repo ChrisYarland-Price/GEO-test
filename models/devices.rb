@@ -2,13 +2,11 @@ class Device
   attr_accessor :name
 
   def self.open_file
-  @xml_devices = Nokogiri::XML(open('data/mini-schema.xml'))
+  Nokogiri::XML(open('data/mini-schema.xml'))
   end
 
   def self.find(var)
-    open_file
-    notes = []
-    @xml_devices.search('name').each do |device|
+    open_file.search('name').each do |device|
       if device.text === var 
         return device.parent.search('notes').to_xml
       end
@@ -17,12 +15,11 @@ class Device
   end
 
   def self.all
-    open_file
-    array_of_device_notes = ""
-    @xml_devices.search('devices').each do |device|
-      array_of_device_notes << device.to_xml
+    array_of_device_notes = []
+    open_file.search('devices').each do |device|
+      array_of_device_notes << device.search('notes').to_xml
     end
-    array_of_device_notes
+    array_of_device_notes.to_xml
   end
   
   

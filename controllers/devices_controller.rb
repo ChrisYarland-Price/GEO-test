@@ -8,12 +8,12 @@ class DevicesController < Sinatra::Base
   end
 
   get '/' do
+    content_type 'text/xml'
     Device.all
   end
 
-
-
   get '/:name' do
+    content_type 'text/xml'
 
     @name = params[:name]
 
