@@ -1,5 +1,5 @@
 class DevicesApiTest 
-    include HTTParty
+  include HTTParty
   base_uri 'http://localhost:9292'
   format :xml
 
